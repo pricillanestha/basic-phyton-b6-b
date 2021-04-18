@@ -11,7 +11,7 @@ Tinggi_1 = 160.98
 print ("Saya Sistem Dalam Permainan Luas Lingkaran ini dan Nama Saya " +Nama_1+ " ,umur saya" ,Umur_1, "dan tinggi saya sepertinya" ,Tinggi_1, "Cm.")
 
 # Hanya Tambahan
-# Note Pribadi = Penempatan Urutan Syntax berhububngan dengan apa duluan yang akan keluar
+# Note = Penempatan Urutan Syntax berhubungan dengan apa duluan yang akan keluar
 Nama_2 = input("Siapa Nama mu ? : ")
 print ("Hai ! "+Nama_2+" Salam Kenal !")
 Umur_2 = int(input("Berapa Umur mu ? : "))

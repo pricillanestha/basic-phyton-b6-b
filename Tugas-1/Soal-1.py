@@ -3,11 +3,12 @@
 # cd ../ untuk hapus directory / folder
 
 #Soal 1 (Program yang menerima 3 input dari user)
-print ("Mari Bermain Namun, Yuk Kita Kenalan Terlebih dahulu ! ")
+print ("===========================================================================================")
+print ("     Selamat Datang Di Permainan Luas Lingkaran. Yuk Kita Kenalan Terlebih dahulu !        ")
 Nama_1 = "Alice"
 Umur_1 = 15
 Tinggi_1 = 160.98
-print ("Saya Sistem Dalam Permainan Luas Lingkaran ini dan Nama Saya " +Nama_1+ " ,umur saya" ,Umur_1, "dan tinggi saya" ,Tinggi_1, "Cm.")
+print ("Saya Sistem Dalam Permainan Luas Lingkaran ini dan Nama Saya " +Nama_1+ " ,umur saya" ,Umur_1, "dan tinggi saya sepertinya" ,Tinggi_1, "Cm.")
 
 # Hanya Tambahan
 # Note Pribadi = Penempatan Urutan Syntax berhububngan dengan apa duluan yang akan keluar
@@ -17,21 +18,21 @@ Umur_2 = int(input("Berapa Umur mu ? : "))
 print ("Oh !, umur mu " ,Umur_2,"tahun." )
 
 #Soal 2 (Program yang dapat menghitung luas lingkaran)
-print ("Yuk ! Mulai")
+print ("    Yuk ! Mulai    ")
 print ("===================")
 print ("Masukan jari jari lingkaran : ")
 r = float(input(""))
 phi = 3.14
 L = phi * (r * r)
 print ("Luas Lingkaran dengan jari-jari {}, cm adalah {} cm\u00b2" .format(r,L))
-print ("Luas Lingkaran dengan jari-jari {: .0f}, cm adalah {: .2f} cm\u00b2" .format(r,L))
+print ("Luas Lingkaran dengan jari-jari {}, cm adalah {: .2f} cm\u00b2" .format(r,L))
 print ("Selesai, Sampai Jumpa !!!")
 
 
 #Soal 3 (Program untuk menentukan apakah seorang siswa lulus ujian atau tidak)
 print ("======================================")
 print ("======================================")
-print ("Pengecekan Nilai")
+print ("         Pengecekan Nilai             ")
 print ("======================================")
 print ("Note : KKM 70")
 

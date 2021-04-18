@@ -20,11 +20,11 @@ print ("Oh !, umur mu " ,Umur_2,"tahun." )
 print ("Yuk ! Mulai")
 print ("===================")
 print ("Masukan jari jari lingkaran : ")
-r = int(input(""))
+r = float(input(""))
 phi = 3.14
 L = phi * (r * r)
 print ("Luas Lingkaran dengan jari-jari {}, cm adalah {} cm\u00b2" .format(r,L))
-print ("Luas Lingkaran dengan jari-jari {}, cm adalah {: .2f} cm\u00b2" .format(r,L))
+print ("Luas Lingkaran dengan jari-jari {: .0f}, cm adalah {: .2f} cm\u00b2" .format(r,L))
 print ("Selesai, Sampai Jumpa !!!")
 
 

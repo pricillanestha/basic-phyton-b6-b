@@ -35,13 +35,14 @@ print ("Pengecekan Nilai")
 print ("======================================")
 print ("Note : KKM 70")
 
-x = int(input("Masukkan Nilai Teori :"))
-y = int(input("Masukkan Nilai Praktek :"))
+x = float(input("Masukkan Nilai Teori :"))
+y = float(input("Masukkan Nilai Praktek :"))
 
-z = (x+y)/2
-
-if z > 70 :
-    print ("LULUS")
-elif z < 70 :
-    print ("TIDAK LULUS")
-    print ("Silahkan hubungi walikelas")
+if x and y >= 70 :
+    print ("Selamat, anda lulus!")
+elif x >= 70 and y < 70 :
+    print ("Anda harus mengulang ujian praktek.")
+elif x < 70 and y >= 70 :
+    print ("Anda harus mengulang ujian teori.")
+elif x and y < 70 :
+    print ("Anda harus mengulang ujian teori dan praktek.")

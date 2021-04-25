@@ -1,0 +1,10 @@
+#Soal 2 (Program yang dapat menghitung luas lingkaran)
+print ("    Yuk ! Mulai    ")
+print ("===================")
+print ("Masukan jari jari lingkaran : ")
+r = float(input(""))
+phi = 3.14
+L = phi * (r * r)
+print ("Luas Lingkaran dengan jari-jari {}, cm adalah {} cm\u00b2" .format(r,L))
+print ("Luas Lingkaran dengan jari-jari {}, cm adalah {: .2f} cm\u00b2" .format(r,L))
+print ("Selesai, Sampai Jumpa !!!")

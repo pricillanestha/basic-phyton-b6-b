@@ -21,11 +21,12 @@ pelanggan_list = []
 # Change Dictionary
 # Merubah nama Navi menjadi Joni
 # Sama seperti list klo yang di rubah index klo dictionary dia di rubah keynya
-pelanggan_dict ["nama"] = "Joni"
+#pelanggan_dict ["nama"] = "Joni"
+#pelanggan_dict ["umur"] = "Joni"
 
 # Cara akses dictionary
-print(pelanggan_dict["nama"])
-print(pelanggan_dict["umur"])
+# print(pelanggan_dict["nama"])
+# print(pelanggan_dict["umur"])
 
 
 # [] list
@@ -45,7 +46,7 @@ for i in range(3) :
     pelanggan_list.append(pelanggan_dict)
 
 print(pelanggan_list[0])
-for i in pelanggan_list :
+#for i in pelanggan_list :
     print("Nama Pelanggan : ",i["nama"])
     print("Umur Pelanggan : ",i["umur"])
 

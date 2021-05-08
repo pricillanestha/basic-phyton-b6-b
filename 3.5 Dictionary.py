@@ -45,7 +45,7 @@ for i in range(3) :
 
     pelanggan_list.append(pelanggan_dict)
 
-print(pelanggan_list[0])
+#print(pelanggan_list[0])
 #for i in pelanggan_list :
     print("Nama Pelanggan : ",i["nama"])
     print("Umur Pelanggan : ",i["umur"])
